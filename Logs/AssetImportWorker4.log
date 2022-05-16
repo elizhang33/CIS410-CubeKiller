@@ -1,0 +1,1688 @@
+Unity Editor version:    2021.2.14f1 (bcb93e5482d2)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58531
+Successfully changed project path to: /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller
+/Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.14f1 (bcb93e5482d2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56151
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000785 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (91ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (95.5 KB). Loaded Objects now: 3697.
+Memory consumption went from 234.9 MB to 234.8 MB.
+Total: 3.288582 ms (FindLiveObjects: 0.248955 ms CreateObjectMapping: 0.164810 ms MarkObjects: 2.771972 ms  DeleteObjects: 0.101813 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71015.136168 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(9c4533a25308a46728847abe0bca7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(9c4533a25308a46728847abe0bca7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa650ff5ca278c9c4e31b6844b42b96') in 0.142781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.257824 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ce8b5fc4069cf459b8b2b6ec3afc8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(ce8b5fc4069cf459b8b2b6ec3afc8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24b50913a2ac34961ccdaf9b46fee51') in 0.000819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.842289 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/CubeParticles.mat
+  artifactKey: Guid(55d3cd30aa20d634f8c2388d479742d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/CubeParticles.mat using Guid(55d3cd30aa20d634f8c2388d479742d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7778828c35cd12c0f3d6fbf719d2b6c') in 0.232681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.019185 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue
+  artifactKey: Guid(e627b37cf3694c647b67e610419bc112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue using Guid(e627b37cf3694c647b67e610419bc112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1127199e84cb917386fd4170697a8d95') in 0.001071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.038327 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue/ForestBanner_Blue.prefab
+  artifactKey: Guid(0073cc7a3535b5648b67fc6df3289f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue/ForestBanner_Blue.prefab using Guid(0073cc7a3535b5648b67fc6df3289f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d26169ebcd08214b716df20c2cf38b') in 0.551560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.984307 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base
+  artifactKey: Guid(e0d8d2cda705ce24088d5b5495c4bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base using Guid(e0d8d2cda705ce24088d5b5495c4bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2a069fdd18189c2f5f7e5bdd60a38f') in 0.001106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.585544 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base.prefab
+  artifactKey: Guid(d3be3902f0af21d40b381cd77208daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base.prefab using Guid(d3be3902f0af21d40b381cd77208daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea17587eb28603736f7a8bb477af128d') in 0.342694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab
+  artifactKey: Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab using Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6ec43a754a74b1d357c564d6ad5a99') in 0.010157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Base/Base_10.prefab
+  artifactKey: Guid(4b36b10160a12d44793dc10a524c9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Base/Base_10.prefab using Guid(4b36b10160a12d44793dc10a524c9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03eeea12c976ed10acac0bceaa67919') in 0.011384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.513812 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex
+  artifactKey: Guid(5ec3e065376cde546a3353d906177faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex using Guid(5ec3e065376cde546a3353d906177faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a08d5d2687e5076af7dd3eec929072') in 0.001125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073713 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base.prefab
+  artifactKey: Guid(f8aa396952c169d4c898e4d8204c6b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base.prefab using Guid(f8aa396952c169d4c898e4d8204c6b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0673315b0938af1531f60c600f157132') in 0.014847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_tall.prefab
+  artifactKey: Guid(f5afe6ece1be7aa4f80b85d6a40fcc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_tall.prefab using Guid(f5afe6ece1be7aa4f80b85d6a40fcc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccba497e46e0aeab80359e49f41df2cf') in 0.016154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_3_tall.prefab
+  artifactKey: Guid(7102b0a92a472e642acc61bb8bfe7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_3_tall.prefab using Guid(7102b0a92a472e642acc61bb8bfe7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e8124c59ef2e0953e298252ac170ad') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Complex/Base_9.prefab
+  artifactKey: Guid(a1d346d8e49157640a865618f141d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Complex/Base_9.prefab using Guid(a1d346d8e49157640a865618f141d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f108236a9a2a06c5d6071581f6fe7578') in 0.010752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.099131 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestBanner_Red.prefab
+  artifactKey: Guid(6ed1034f9492a344ebd1650ecbc20030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestBanner_Red.prefab using Guid(6ed1034f9492a344ebd1650ecbc20030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aca42e25f45cddd5edac8258f66387') in 0.013104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestFlag_Red.prefab
+  artifactKey: Guid(86646208869fa9149bdeb0379efee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestFlag_Red.prefab using Guid(86646208869fa9149bdeb0379efee8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0893b19288992b23eebb86d6ee2f89fb') in 0.013741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestCastleDoorR_Red.prefab
+  artifactKey: Guid(8460a569480840d449cb9dd635c1b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Red/ForestCastleDoorR_Red.prefab using Guid(8460a569480840d449cb9dd635c1b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1967a7d751522e48489abe738b184d') in 0.011833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.637777 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreeAppleShort.prefab
+  artifactKey: Guid(f4f82206765cef54ca8f19ce34136e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreeAppleShort.prefab using Guid(f4f82206765cef54ca8f19ce34136e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa316315d286fb8f6c848157136ded6') in 0.139013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.837079 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/ForestTreeDTall.prefab
+  artifactKey: Guid(eb322b3f7ad50984197dced1b53b11ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/ForestTreeDTall.prefab using Guid(eb322b3f7ad50984197dced1b53b11ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe004b74ff97772dedd09ae5f23b10cf') in 0.008825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.327238 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/ColorPaletteBLUE.mat
+  artifactKey: Guid(e77b003cd8771304abfc74dd93c9f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/ColorPaletteBLUE.mat using Guid(e77b003cd8771304abfc74dd93c9f934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d0e017bed448c8c553546450f7d758') in 0.011405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/Water.mat
+  artifactKey: Guid(db6fe5b017a481740b6a70f2ea5860d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/Water.mat using Guid(db6fe5b017a481740b6a70f2ea5860d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61088ab6895e55f224134266e27d2e6d') in 0.010119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/ColorPaletteRED.mat
+  artifactKey: Guid(4484256e7ebbe4a4eab77924649bab61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/ColorPaletteRED.mat using Guid(4484256e7ebbe4a4eab77924649bab61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13af321b61c79b133e5c24e8c9e7065') in 0.010651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/ShowCase.mat
+  artifactKey: Guid(ce6846b6b5ba77f4e83630cc67fcd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/ShowCase.mat using Guid(ce6846b6b5ba77f4e83630cc67fcd60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680bc8338a59f900c634fe85da36cad') in 0.007592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/AurynSky/Forest Pack/Materials/WaterTile.mat
+  artifactKey: Guid(3f14906e08078944dab937a623780258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Materials/WaterTile.mat using Guid(3f14906e08078944dab937a623780258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62d4ae4ef675fe2073c5b9d18a067fd') in 0.266936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.299571 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestBanner.fbx
+  artifactKey: Guid(73866947821a91c4d9d1b41582ae7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestBanner.fbx using Guid(73866947821a91c4d9d1b41582ae7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d4af85c648f6f77d8e6ef648302010') in 0.127135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestCastleDoorL.fbx
+  artifactKey: Guid(e6fbed5d470b480408c5d2f5c87db564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestCastleDoorL.fbx using Guid(e6fbed5d470b480408c5d2f5c87db564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c207825ea7691ee2781cd27c1c401c') in 0.021734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestTreeDTall.fbx
+  artifactKey: Guid(a2c5addf9682ab24d8a7163ed106e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestTreeDTall.fbx using Guid(a2c5addf9682ab24d8a7163ed106e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea3e2de170e8f7c8f11e4b7c076e831') in 0.027962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestCrate.fbx
+  artifactKey: Guid(a1f37417ef7b6c14cbbc17f7295996c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestCrate.fbx using Guid(a1f37417ef7b6c14cbbc17f7295996c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d9421f50acb20ddd4f2f3313b7086c') in 0.018521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestGroundDirt.fbx
+  artifactKey: Guid(dac1f6a026468af46b8928893e3eea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestGroundDirt.fbx using Guid(dac1f6a026468af46b8928893e3eea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f52918a699e5015dfb3c8d7a0e748e') in 0.018597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestFlag.fbx
+  artifactKey: Guid(c2384f4f142bbcc4a95566c55927a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestFlag.fbx using Guid(c2384f4f142bbcc4a95566c55927a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fea2c7183becfde8a64d510f2ef1096') in 0.028525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestGround02.fbx
+  artifactKey: Guid(caca2dfcd7da619408439605ff0667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestGround02.fbx using Guid(caca2dfcd7da619408439605ff0667a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a21dbdd01721f9da234cc6320ff2836') in 0.027216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestCatapultBase.fbx
+  artifactKey: Guid(e661daaaebf587c4cae7c914305ccc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestCatapultBase.fbx using Guid(e661daaaebf587c4cae7c914305ccc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ab76855d6fbc737917e9a44c41c995') in 0.019621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestGround01.fbx
+  artifactKey: Guid(f9fc7ec022f09a6418b1b6f97f0c887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestGround01.fbx using Guid(f9fc7ec022f09a6418b1b6f97f0c887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae67cba45e73159ddef9ea119d8711c') in 0.019295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestTreeAppleTall.fbx
+  artifactKey: Guid(74836e1c1b626dc41a8fb4207f7026b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestTreeAppleTall.fbx using Guid(74836e1c1b626dc41a8fb4207f7026b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970fa5798353055188c13d605057957e') in 0.020626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestBridgeWide.fbx
+  artifactKey: Guid(fe63f0532f7ca0b47b859b94db3dff06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestBridgeWide.fbx using Guid(fe63f0532f7ca0b47b859b94db3dff06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e7c5bd63b2387a0379eb9363b4f0b3') in 0.024083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestChestTop.fbx
+  artifactKey: Guid(55df886252da3624fbe98bce822145ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestChestTop.fbx using Guid(55df886252da3624fbe98bce822145ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f4fa0eb922b063e69a1544f22f87f0') in 0.025595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestChestBottom.fbx
+  artifactKey: Guid(0e5f540077da33c4eab7f0f7f1121747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestChestBottom.fbx using Guid(0e5f540077da33c4eab7f0f7f1121747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dd40f6167dd744432dbfcc23fa8cdc') in 0.025836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestGrass02.fbx
+  artifactKey: Guid(b1243bcbb8ed74e4ab8fd4d283783ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestGrass02.fbx using Guid(b1243bcbb8ed74e4ab8fd4d283783ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8611f6b4ce173d719194bc3b9d98607') in 0.020709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestCastleWindow.fbx
+  artifactKey: Guid(1eab687d6dbcf7847ab55b00b3c9c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestCastleWindow.fbx using Guid(1eab687d6dbcf7847ab55b00b3c9c91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194af40f2e672ba13d0f078be4a7a783') in 0.020057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestCannonBall.fbx
+  artifactKey: Guid(18a61d73650d23046b60f8a548888c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestCannonBall.fbx using Guid(18a61d73650d23046b60f8a548888c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd22f0d87ae0b24d10f6b84152695d1a') in 0.019664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestTreePineShort.fbx
+  artifactKey: Guid(54e159d3356cea14996fb2dc32d85269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestTreePineShort.fbx using Guid(54e159d3356cea14996fb2dc32d85269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687ec605712427eb3e4f86baece149ef') in 0.021898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestTreeDShort.fbx
+  artifactKey: Guid(7f45a4e3a86ce4b4391131e440bf9e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestTreeDShort.fbx using Guid(7f45a4e3a86ce4b4391131e440bf9e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073397aebe3a92e3013920028e0ed654') in 0.021600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestLadder.fbx
+  artifactKey: Guid(063e70de915dd8843afde64c2c744ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestLadder.fbx using Guid(063e70de915dd8843afde64c2c744ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61890ba6aad724629b141f8dc707a89') in 0.020687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AurynSky/Forest Pack/Models/ForestTreeAppleShort.fbx
+  artifactKey: Guid(55d234882e9a60747b3208b956d8244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Models/ForestTreeAppleShort.fbx using Guid(55d234882e9a60747b3208b956d8244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a841e4e55b849c1bd5d082f232d5aba') in 0.016196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.726437 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Barel.asset
+  artifactKey: Guid(198e22835f50d434cad61bebc789302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Barel.asset using Guid(198e22835f50d434cad61bebc789302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b0f6d95c418cc5001f9d1263e2b064') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Button.asset
+  artifactKey: Guid(04629e66c06df604195425fe0f222c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Button.asset using Guid(04629e66c06df604195425fe0f222c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c4a3c80924db373574d7137f02db4b') in 0.009413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_low_3.asset
+  artifactKey: Guid(86e62d21de6220d4abd7a504d253ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_low_3.asset using Guid(86e62d21de6220d4abd7a504d253ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf0b6bcb639238b53e88e3c66c891f3') in 0.015426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base_4.asset
+  artifactKey: Guid(7d86c8f2223edc546bc46ca40204f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base_4.asset using Guid(7d86c8f2223edc546bc46ca40204f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c52861d2e626b238a315b00547c317f') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base_10.asset
+  artifactKey: Guid(05c8587ded49ac541a2e6316f859f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base_10.asset using Guid(05c8587ded49ac541a2e6316f859f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51af1c088b2689978128c297872c9cd8') in 0.007668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_Castle_2.asset
+  artifactKey: Guid(2e65cad9aa7b3b545a6f0fb8f239279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_Castle_2.asset using Guid(2e65cad9aa7b3b545a6f0fb8f239279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f172d023175e782808a0795f1b2e1019') in 0.011121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Lader_Full_2.asset
+  artifactKey: Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Lader_Full_2.asset using Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaace31a6aeec05bc3eb67f9261eeb0') in 0.018009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Rocks_1.asset
+  artifactKey: Guid(001026c98a455f540bcbb855fca838fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Rocks_1.asset using Guid(001026c98a455f540bcbb855fca838fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ac91bff5f485745af9f95522009a3b') in 0.008966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Leder_Top.asset
+  artifactKey: Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Leder_Top.asset using Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1acde3811bff5060619883bc85f0ca6') in 0.013867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_3.asset
+  artifactKey: Guid(37d1fba433769b2449855f9bc1e4c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_3.asset using Guid(37d1fba433769b2449855f9bc1e4c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3028f2e1e3742583928b6715e0b527bd') in 0.008961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Base_9.asset
+  artifactKey: Guid(fded3093017dc114696f91d4cbf4d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Base_9.asset using Guid(fded3093017dc114696f91d4cbf4d09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b8b36eceb42059c8fc45fea47b01c4') in 0.011443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_Castle.asset
+  artifactKey: Guid(36aa514d0381ccd40bfe2cd5c54059b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_Castle.asset using Guid(36aa514d0381ccd40bfe2cd5c54059b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099ed3750a252a7380a762c943d4a4c1') in 0.009637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_2.asset
+  artifactKey: Guid(4cf3aca5ffa27d244b3d1aeb11d2cd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_2.asset using Guid(4cf3aca5ffa27d244b3d1aeb11d2cd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6bcd7c1cdfc83d364d136658679bfa') in 0.010458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_low.asset
+  artifactKey: Guid(442d01bfbc7b71948aa1a6de37e291d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_low.asset using Guid(442d01bfbc7b71948aa1a6de37e291d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc775ed72afdee5678acdcc869a8771') in 0.016165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Rocks_5.asset
+  artifactKey: Guid(6177e76834d6d2849b2c9d8f56c44085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Rocks_5.asset using Guid(6177e76834d6d2849b2c9d8f56c44085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2154db668eaf31ab685442c2543abc') in 0.010632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Top_6.asset
+  artifactKey: Guid(35f95e2f66e60a7419b9bd37bab1f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Top_6.asset using Guid(35f95e2f66e60a7419b9bd37bab1f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdf4c8af58ae559bf8f2738bb3b1f88') in 0.018667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_4.asset
+  artifactKey: Guid(ab13a371698968d4dae5995b5f0d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_4.asset using Guid(ab13a371698968d4dae5995b5f0d0c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a271d3ae77a47b6a92f306e940fdce64') in 0.014166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Props_1.asset
+  artifactKey: Guid(e09a4c6fece17f348aca242101db2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Props_1.asset using Guid(e09a4c6fece17f348aca242101db2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa38337fd45a31172b4f80241395897') in 0.008599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Window_2.asset
+  artifactKey: Guid(db40a923c256cac4b888ce538c57562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Window_2.asset using Guid(db40a923c256cac4b888ce538c57562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09befad617034fb7b5c2bc4b8dcb6f20') in 0.022552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/ButtonBase.asset
+  artifactKey: Guid(7ed01e01b8717dc45bd16471bafb3cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/ButtonBase.asset using Guid(7ed01e01b8717dc45bd16471bafb3cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad30f87ae22392d3af8fa56d7800f59') in 0.009321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Tale Monster Cube Env/Meshes/Tree_Cut.asset
+  artifactKey: Guid(79ff099a5ee8ba344b929353a7276dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Meshes/Tree_Cut.asset using Guid(79ff099a5ee8ba344b929353a7276dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4ed477db2371a086f468d9366fc600') in 0.008022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180256 seconds.
+  path: Assets/Tale Monster Cube Env/Materials/Black.mat
+  artifactKey: Guid(fbdae02d3738d954eb01d14fe6973e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Materials/Black.mat using Guid(fbdae02d3738d954eb01d14fe6973e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362f0f555ccf20eed644bce299a7e0ee') in 0.009839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Tale Monster Cube Env/Materials/Water.mat
+  artifactKey: Guid(dee2eefd7b8be9b4da71c23b79e829dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Materials/Water.mat using Guid(dee2eefd7b8be9b4da71c23b79e829dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcfc59ff622e591e7eef4dc28ef20d7') in 0.318085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1496.255605 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(39015be9f3fc641ad97639e2c65318e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(39015be9f3fc641ad97639e2c65318e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3488e5809b52074085e9b47abaef57') in 0.000838 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.2 KB). Loaded Objects now: 3747.
+Memory consumption went from 270.3 MB to 270.2 MB.
+Total: 3.084064 ms (FindLiveObjects: 0.242790 ms CreateObjectMapping: 0.135491 ms MarkObjects: 2.638045 ms  DeleteObjects: 0.067005 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.900559 seconds.
+  path: Assets/Scripts/Unity Terrain2Obj Script C#.cs
+  artifactKey: Guid(1bd10edfe874b471ba57b659a02ca7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Unity Terrain2Obj Script C#.cs using Guid(1bd10edfe874b471ba57b659a02ca7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8819096745b34dc84074e58a79589a1') in 0.171136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.344842 seconds.
+  path: Assets/Scripts/UnityTerrain.cs
+  artifactKey: Guid(1bd10edfe874b471ba57b659a02ca7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnityTerrain.cs using Guid(1bd10edfe874b471ba57b659a02ca7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0313b70275e91b14d4e08be6c2044939') in 0.001745 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.2 KB). Loaded Objects now: 3749.
+Memory consumption went from 274.6 MB to 274.5 MB.
+Total: 3.146240 ms (FindLiveObjects: 0.246885 ms CreateObjectMapping: 0.167799 ms MarkObjects: 2.665809 ms  DeleteObjects: 0.065053 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001454 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.1 KB). Loaded Objects now: 3751.
+Memory consumption went from 274.8 MB to 274.7 MB.
+Total: 3.182494 ms (FindLiveObjects: 0.249391 ms CreateObjectMapping: 0.160556 ms MarkObjects: 2.701283 ms  DeleteObjects: 0.070412 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.543195 seconds.
+  path: Assets/Terrain.obj
+  artifactKey: Guid(b1d50ff615b564a21b8cfb0755831096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain.obj using Guid(b1d50ff615b564a21b8cfb0755831096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1840602b3fb0de5d7b81e86fc2c72ac5') in 0.950861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.627328 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(dd93f814cfc554c45bd1cb4f081d60fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(dd93f814cfc554c45bd1cb4f081d60fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6f0212b885d82e8e33dd36794e590') in 0.001086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.943188 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Barel.prefab
+  artifactKey: Guid(726a4d0555af6894e9984a16fd9efead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Barel.prefab using Guid(726a4d0555af6894e9984a16fd9efead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b6262c327ef7257f1b03ac3ee75ed0') in 0.011323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Coin.prefab
+  artifactKey: Guid(4f106067e69e37b4bbc1ece430c67a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Coin.prefab using Guid(4f106067e69e37b4bbc1ece430c67a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c253d51fe4dfdd5560c7b4966b8c88e') in 0.008815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Castle_part.prefab
+  artifactKey: Guid(3fd18f2eb1c0ae24c954ec071bd8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Castle_part.prefab using Guid(3fd18f2eb1c0ae24c954ec071bd8d054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7812a9ad38a220004b05ceca1c23e93c') in 0.012277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1585.199564 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(aee4c5bd46a2d4ca98284babff025577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(aee4c5bd46a2d4ca98284babff025577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18797d0f0b5c8b9f750a4384f785d86') in 0.005229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.708059 seconds.
+  path: Assets/NewTerrain.fbx
+  artifactKey: Guid(ced1275e1fd9b4f56b035e747e54dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewTerrain.fbx using Guid(ced1275e1fd9b4f56b035e747e54dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc160aa52eb93dbf7bebc8b9e999892f') in 0.028185 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.8 KB). Loaded Objects now: 3753.
+Memory consumption went from 279.2 MB to 279.1 MB.
+Total: 3.133330 ms (FindLiveObjects: 0.256253 ms CreateObjectMapping: 0.167668 ms MarkObjects: 2.630877 ms  DeleteObjects: 0.077756 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1303.842830 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab
+  artifactKey: Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab using Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249cc1ca86ff4ceb15bb93e4a946b69e') in 0.089980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e10d113e86372e2bddd60068f5123e') in 0.009138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b23644143988673b305555160d3dfd2') in 0.019333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ed8e101f357118e8fd6d10a40476f4') in 0.010317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d27f464c6db7de15e4c56e264bcc52c') in 0.009207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a71aa8b22545dbaeac0e9ca8927fdd') in 0.018865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_5.prefab
+  artifactKey: Guid(e9b551c76184320419f587ff8c3e25be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_5.prefab using Guid(e9b551c76184320419f587ff8c3e25be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f535447c8422f0556dea64cb231984') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d6ea92045b3164f56930f1356faf70') in 0.010857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.639928 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Lader_Full_2.prefab
+  artifactKey: Guid(3e72121ba837f274d962ab6f6fcd5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Lader_Full_2.prefab using Guid(3e72121ba837f274d962ab6f6fcd5d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326e2e2c6b1299ef05caa9b5a2d6948') in 0.021178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_2.prefab
+  artifactKey: Guid(97032db00b32bea43ae58bcf2f43879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_2.prefab using Guid(97032db00b32bea43ae58bcf2f43879e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24eabf822cfc36ec51ac64b02cfb0cf') in 0.013715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_3.prefab
+  artifactKey: Guid(a8f45953969b6cc4eb86c25b5671b7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Top_Castle_3.prefab using Guid(a8f45953969b6cc4eb86c25b5671b7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f7d5b94f68741a061d758cd1529824') in 0.011437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Props/Leder_Full.prefab
+  artifactKey: Guid(bea14fb6b85d8f14f869095e2f7eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Props/Leder_Full.prefab using Guid(bea14fb6b85d8f14f869095e2f7eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f7a0203a416f3d6ffa5e651fe6194e') in 0.015367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.288548 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top.prefab
+  artifactKey: Guid(b5a107eaebb44574180e07007c863dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top.prefab using Guid(b5a107eaebb44574180e07007c863dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c45b48d4a864a1003f0e96c1b1799') in 0.010866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_6_Part.prefab
+  artifactKey: Guid(9d82166a59336d645b2d03937f3c8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_6_Part.prefab using Guid(9d82166a59336d645b2d03937f3c8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbad466066359767d59f44feacd8b357') in 0.010511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Top/Top_10.prefab
+  artifactKey: Guid(0dca01cdb28d9c245bbb361d0ef8e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Top/Top_10.prefab using Guid(0dca01cdb28d9c245bbb361d0ef8e67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76a8dc667d2736fa7f73803ea8229a1') in 0.015299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.960632 seconds.
+  path: Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue/ForestCastle_Blue.prefab
+  artifactKey: Guid(72b5f3ccc49ab5c4fa326915f1aabbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Forest Pack/Prefabs/Prefabs_Blue/ForestCastle_Blue.prefab using Guid(72b5f3ccc49ab5c4fa326915f1aabbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d7168eefa252c6f0d2eefa077c2b15') in 0.022422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 373.546608 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(6c3d29ad5be0d42dbac120f390eeb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(6c3d29ad5be0d42dbac120f390eeb54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8067b8f26922e3484ff78ea3c387fa97') in 0.846999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.349094 seconds.
+  path: Assets/NewTerrain1.ply
+  artifactKey: Guid(f7d7455b6b5854a2aa2fff9b69b2021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewTerrain1.ply using Guid(f7d7455b6b5854a2aa2fff9b69b2021c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad5b6149c3d8bb17cd7298598b7425c') in 0.085948 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001387 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.1 KB). Loaded Objects now: 3759.
+Memory consumption went from 284.2 MB to 284.1 MB.
+Total: 3.142336 ms (FindLiveObjects: 0.257819 ms CreateObjectMapping: 0.161339 ms MarkObjects: 2.642661 ms  DeleteObjects: 0.079717 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1561.251414 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a6902deced18542a451bdec3ea39a6') in 0.083156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.025773 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6907b88d9feadc12ef7a0a99622b52b') in 0.009278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.697418 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399047d53791158e1a3a766742f16dc') in 0.008767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.157702 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ed38d214841df10faf96ba9863ec0e') in 0.008816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.050818 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e87fb98bd4cdfbc14d06b348ce79f2') in 0.009101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.703647 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbac5e5c77a5e74b9e60117f7d3d915c') in 0.009356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.771701 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb37295d719f89bc7f231d63f02f681f') in 0.011687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.417527 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ecdc5a54217a771a34c0be51c8aa2e') in 0.011026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.639072 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5943325cef6b38d371771e3eb25b0352') in 0.010343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.027130 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b231eeef4cb8d0fa400bb866f3210b2') in 0.010173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.216393 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b909ac2f72a593d9e0775a38a7e95e30') in 0.009367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.843545 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b5d6b80e9ae6aba44ffe745c40f8fe') in 0.009769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.584936 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e63c6b2b492ed913d3f479de8928a55') in 0.009474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.824885 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f9ea6910230bf29c50961e2b6fe076') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822920 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc31dbf0e1c0a3a9ac1e287516de19d') in 0.007727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.694840 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e4b688562ea96639ba4b257bdc004a') in 0.014130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.670968 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038c10fa9b336420ad7a6bd8267f568f') in 0.011975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.472370 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df97abd213bc4cdaac2c353a2a1c0b6') in 0.008578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.013928 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ff37e225405a8f3b91996bd5141919') in 0.008611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.837294 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c63391ab16d52f654d3c687b16aedf') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.478673 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361cd60323f4635c9bffed3fa222f66d') in 0.013191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609043 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418121ef095a09c7881fe0e65e6a7a2') in 0.012932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.827040 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccde739e623d2548e543521d36bc430') in 0.022676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803404 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704c65d629a1ba294925efb89b7d36ca') in 0.023363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.706046 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971e3513585759df1c36f33dae40f7d3') in 0.008795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.625477 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516274909a3630b7a901238de94e04e7') in 0.009834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.323211 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12f3870de31d1d783ec647e15421d9b') in 0.015730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.717395 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cea0129b8c17dc5c4e8624cb175fb46') in 0.011056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.876916 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab
+  artifactKey: Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab using Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99e8ac98790f1ca35b5cd8581e5a176') in 0.007853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628991 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab
+  artifactKey: Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab using Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f827b9f3fb43a3b34f6c27a7446cbd') in 0.008565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.141273 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab
+  artifactKey: Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab using Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0921f827960872e7b5d3164a4b6341') in 0.009016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616455 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab
+  artifactKey: Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab using Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b32f03be19861fd900320e111e0fa12') in 0.007907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.276799 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c83ef2c0b9a85f2e78b638928b387e') in 0.008898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612142 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c0de9d064472902fae8eebf4de872') in 0.007563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.639264 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f3364258f52093b5d06cf7aa30f831') in 0.009923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.611171 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8efef51079e8fc7572c2443f7a1af63') in 0.008796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.654472 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe7789d2ae6250f9cf24ed008618f6') in 0.008738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843755 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8562bbf36ca72b1ba9a60d4969140d') in 0.010319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.797881 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c8dee11d4b804b185d07f8559e0011') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612521 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376921a653484e7fbb77798ce322c2b8') in 0.008954 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zhangxiangqian/Desktop/CIS410-CubeKiller/CubeKiller/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (72.1 KB). Loaded Objects now: 3761.
+Memory consumption went from 284.4 MB to 284.4 MB.
+Total: 3.465113 ms (FindLiveObjects: 0.265705 ms CreateObjectMapping: 0.182492 ms MarkObjects: 2.929605 ms  DeleteObjects: 0.086314 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 118.274454 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead4ef1e2620261a57cb069b92680a1f') in 0.082419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739670 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44342e0ab77b6cff92accd981d3e28a7') in 0.009545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.791154 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f092cd20c345edc0c09223e6e320eff') in 0.009156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.900890 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab
+  artifactKey: Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab using Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1399029126190141e845f8f9d17bbb5d') in 0.008045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.438639 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab
+  artifactKey: Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock.prefab using Guid(65395e6db4f0cc0498e44f0efd7db3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f21d8c3709d0470ed469d2f7ecdf2ac') in 0.007825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.196765 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c23095156eb411bf82edae8731c381') in 0.007900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.479946 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08624ae34559c660bfbef6142f122910') in 0.007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.650903 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab
+  artifactKey: Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_1.prefab using Guid(73b5d765951dd7c49a59e29e4bda8f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520d80bf8ee035356c0e719d7d52eaf8') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.530160 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fac43207e95d77a0a25b73bcf5c4c84') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.472487 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714f18d1a8c40e0accc07959aabb5bae') in 0.008139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651451 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf59fde723d448e871f2ea4dc91894d') in 0.009110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.488197 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ebcc536bfa0c687ba09c1af32bcc3') in 0.008147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.913313 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3517b522f063423cedb9dea22f05170c') in 0.007383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.858306 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83de238216c183a77d560621bcd8991') in 0.008875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.475692 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fd03927c091a4824b187f0e0adc2c9') in 0.007145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319653 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f50e8b1dd592ce95c12d519603c5993') in 0.009464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.441063 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d87bdf73717c5b811fbe8198513086c') in 0.008311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.382846 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1efa658847fbc642b60fe0ec5f19c1') in 0.009138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451859 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf4ca57769340f54b317c669cc6bc2b') in 0.009394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.894017 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ae080aece2eabd6f909b6e4685f0ef') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850725 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2385397c9ae0d6ad17fffa1947715ad') in 0.010047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.348317 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a302638950d1fb96a5d76030cda86e3a') in 0.008522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.769704 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab
+  artifactKey: Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_1.prefab using Guid(1933da8c1d0f15a4ca9a227723a2e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea245c653aadaf090c392424b4fbf9e') in 0.011670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.598210 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442e13c73a041215514baabe6ee609b5') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.847808 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad7ea6ecc22fb31ee689531121a7bbe') in 0.009220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.447225 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fd67b0f3f10cb37a9956c824d2206b') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.857521 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650639f6a734b56578fa86db6c4d098e') in 0.009250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.716844 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84b7178de48120e96f51d3375e9dfa8') in 0.011506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447238 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8c1bbe3b62b693f9111a2152ebe9c2') in 0.012325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.859691 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b9f5b42a850ce20c277395d7a61a4') in 0.007679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.294547 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b053f793dccbcf6e5e84870acd1c5d') in 0.008788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439816 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9515687a8f9ed3e2abdafbba7906a4d') in 0.009507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.135833 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9922d4fef6948b28dea6c686de6de864') in 0.008775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.947183 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e311c7e159ee8d5739d2b7cc263afd') in 0.009271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652882 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5cece5eaaa35b44c6601a833880384') in 0.008153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.458559 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2665155fce6e1d400cce03be35c100ac') in 0.012637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.444224 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d2ac92b6a6320a477d71b94edce4a3') in 0.011381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.988292 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968ecf8bd60453426db81c3c7d3fe6cd') in 0.022620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.639038 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7814760d43c6fb12ce1ea65463491634') in 0.018747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788914 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e8dd89fbe14499e8a6f0c39765290d') in 0.010130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.682890 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e82500e23c8ce7a999305bf1805a4f') in 0.009446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.653115 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b2fcf8bc1749e95942f55de918c44') in 0.008210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.058534 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab
+  artifactKey: Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_2.prefab using Guid(cd102b51c0783d64589c2177fcfea46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c108b6d2457062cccf4ec6c883bfaa8c') in 0.009189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.223465 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624656559972bb7ff65ee56db2cca8c8') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.709655 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462f645dec8be6b199265a57ea5db4e') in 0.011528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586982 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab
+  artifactKey: Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut.prefab using Guid(3d5fe156097e74644a21756f4248b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abde63dd40291feb99a76bdd870f852') in 0.009304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837966 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab
+  artifactKey: Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_Cut_2.prefab using Guid(41aa78ecddbaaed46b10f265d007fd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a27a458fe36ae902f8abd128bad04a6') in 0.007525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433932 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be3a997e80c8746f7385b54b594da8f') in 0.011391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.723903 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524b1d077d6896f584b45d456e19fdaa') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.524704 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
+  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde58e5241856b55d0e5fa1b474eb297') in 0.018262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.166499 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab
+  artifactKey: Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab using Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14269766085c2ee5161f2766a6006bdd') in 0.009758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab
+  artifactKey: Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_4.prefab using Guid(5866e83bd853b59439b4555bee7fd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5af8e4d72464ed89a0d37225474638') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
+  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a708956cf776977d9710e1fd2e3b49e') in 0.013083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab
+  artifactKey: Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_3.prefab using Guid(bdedc9c7c979d174faa2310db28f7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239407952506cd51a38f4f88aa4b7204') in 0.009680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
+  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a540fbaa44cd842ac49800d1d0bc0a') in 0.010294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
+  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee06d5bb224ea69feb9f68b27fc1e40e') in 0.010644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab
+  artifactKey: Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_4.prefab using Guid(5aec3f88307e29047ac3602537779a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238e429c8ba68cb147749ca07cb517fe') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab
+  artifactKey: Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Tree_low_3.prefab using Guid(caec6db9ebd151943b8a953ebdf76887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace7b61abbeb8664ff05791dd679178c') in 0.011404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab
+  artifactKey: Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tale Monster Cube Env/Prefabs/Environment/Rocks_2.prefab using Guid(fc4bfe88c7adf4642862ed31bcc5ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6a0d2ca9c271fbbf7e5a5d58319c1b') in 0.009186 seconds 
